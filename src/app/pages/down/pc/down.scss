@@ -1,0 +1,78 @@
+.pc-down {
+    height: 100%;
+    width: 100%;
+    min-width: 1440px;
+    min-height: 900px;
+
+    background-color: aliceblue;
+
+    background: url(../../../../assets/luodiyebeijing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    .logo {
+        position: absolute;
+        left: 0;
+        top: 0px;
+    }
+
+    .beautiful-girl {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+    }
+
+    .enter-game {
+        position: absolute;
+        right: 121px;
+        bottom: 131px;
+        // height: 216px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .box {
+        position: absolute;
+        top: 200px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .img-box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .box-top {
+                position: absolute;
+                top: 110px;
+            }
+
+            
+        }
+    }
+
+    .add-tips {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #888888;
+        margin-top: 25px;
+        position: fixed;
+        bottom: 0;
+    }
+}

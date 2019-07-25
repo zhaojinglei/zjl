@@ -1,0 +1,2 @@
+1.ÔÚvscode ¿ØÖÆÌ¨ ipconfig 
+2.npm start --host 0.0.0.0

@@ -1,0 +1,170 @@
+.mobile-down {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+
+    background: url(../../../../assets/beijingzuc.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+
+    .top {
+        width: 100%;
+        // 添加
+        height:20vh;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .middle {
+        width: 100%;
+        // 添加
+        height:60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .box {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .t1 {
+                width: 20vw;
+                position: absolute;
+                top: 5vh;
+                left: 40vw;
+                z-index: 1;
+            }
+
+            .t2 {
+                width: 60vw;
+                margin: 0 20vw;
+            }
+        }
+
+        .title {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .down {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+                width: 80%;
+            }
+
+            .down-submit {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .add-tips {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #888888;
+        margin-top: -0.5vh;
+    }
+}
+
+.car{
+    width: 100%!important;
+    height: 600px!important;
+}
+#carimg{
+    width: 100%;
+    height: 600px;
+}
+#car-botton{
+    height: 600px;
+    width: 100%;
+}
+#car-block{
+    height: 600px;
+    width: 100%;
+}
+.el-carousel {
+    height: 600px!important;
+}
+.el-carousel__arrow--left {
+    display: none!important;
+}
+
+.el-carousel__arrow--right{
+    display: none!important;
+}
+.el-carousel__arrow--left {
+    display: none!important;
+}
+.el-carousel__button{
+width:8px!important;
+height:8px!important;
+border-radius:8px!important;
+}
+
+// 后修改样式
+.mobile-down .middle .title {
+    width: 70%;
+    height: 24vh;
+    position: relative;
+    top: -8vh;
+    margin-bottom: -8vh;
+}
+
+
+.mobile-down .middle .box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-down .middle .box .t1 {
+    width: 28vw;
+    position: absolute;
+    top: -4vh;
+    left: 35vw;
+    z-index: 1;
+}
+.mobile-down .middle .box .t2 {
+    width: 83vw;
+    margin: -5.5vh 20vw;
+    position: relative;
+    top: -3vh;
+}
+

@@ -1,0 +1,12 @@
+.mobile-down .middle .down .down-submit {
+    position: relative;
+    top: 122px;
+    left: -33vw;
+    width: 20vw;
+    height: 25px;
+    margin-top: 136px;
+    opacity: 0;
+}
+.mobile-down .middle .down img {
+    width: 100%;
+    height: 100%;

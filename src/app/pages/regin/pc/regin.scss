@@ -1,0 +1,155 @@
+.pc-regin {
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    min-height: 900px;
+    background-color: aliceblue;
+
+    background: url(../../../../assets/denglubeijing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-direction: column;
+
+    .top {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .middle {
+        width: 650px;
+        min-width: 650px;
+        height: 450px;
+        min-height: 450px;
+
+        background-color: #303159;
+        border: 1px solid #70737d;
+
+        .title {
+            width: 100%;
+
+            img {
+                width: 200px;
+                padding: 10px;
+            }
+        }
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+
+            >div {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 0.5vh 0;
+
+                >.input {
+                    width: 60%;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+
+                    >.t {
+                        height: 40px;
+                        width: 100px;
+                        font-size: 18px;
+                        font-weight: 900;
+                        position: absolute;
+                        left: 10%;
+                        line-height: 40px;
+                        text-align: center;
+                    }
+
+                    >input {
+                        width: 80%;
+                        height: 40px;
+                        background-color: rgb(220, 221, 222);
+                        border: none;
+                        text-indent: 100px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        border-radius: 5px;
+                    }
+                }
+
+                >.label {
+                    width: 40%;
+                    font-size: 14px;
+                    color: rgb(136, 138, 145);
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 0.5vh 0;
+                }
+            }
+
+            .regin-submit {
+                width: 80%;
+                margin: 0 auto;
+                background: url(../../../../assets/huangseanjian.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 45px;
+                border-radius: 5px;
+                margin-top: 2vh;
+                font-size: 18px;
+                font-weight: 500;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .bottom {
+        height: 100%;
+        width: 100%;
+        min-width: 1200px;
+        min-height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-tips {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #888888;
+        margin-top: 25px;
+    }
+}
+
+#v-code-input {
+    width: 45%;
+    text-indent: 1rem;
+
+}
+
+#v-code-text {
+    width: 30%;
+    height: 35px;
+}
+
+#space {
+    width: 5%;
+}
